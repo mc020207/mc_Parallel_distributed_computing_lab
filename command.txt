@@ -1,0 +1,8 @@
+openmp
+g++ lab1.cpp -fopenmp -o lab1.exe
+lab1
+
+
+mpicxx lab2.cpp -o lab2
+mpirun --oversubscribe -np 4 ./lab2
+
